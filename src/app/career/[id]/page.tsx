@@ -24,7 +24,7 @@ export async function generateMetadata(
     openGraph: {
       images: [
         {
-          url: `http://localhost:3000/api/og?title=${encodeURIComponent(
+          url: `https://nextjs-open-graph.vercel.app/api/og?title=${encodeURIComponent(
             data.title
           )}&imageUrl=${data.image}`,
         },
