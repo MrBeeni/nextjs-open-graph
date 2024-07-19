@@ -26,7 +26,7 @@ export async function generateMetadata(
         {
           url: `https://nextjs-open-graph.vercel.app/api/og?title=${encodeURIComponent(
             data.title
-          )}&imageUrl=${data.image}`,
+          )}&imageUrl=https://www.pakainfo.com/wp-content/uploads/2021/09/image-url-for-testing.jpg`,
         },
       ],
     },
